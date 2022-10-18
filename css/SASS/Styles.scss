@@ -1,2 +1,112 @@
 @import "null_style.scss";
-@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&family=Tinos&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+$background-color: #6bb5fc;
+$circle_background-color: #389cfa;
+$button_background-color: #033665;
+$button_color: #fff;
+$h3_color: #155b9a;
+$h2_color: #033665;
+$border_color: #033665;
+$button_background-color-hov: #0059ab;
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: $background-color;
+    line-height: 20px;
+}
+.wrapper{
+    overflow: hidden;
+}
+.main{
+    position: relative;
+    padding: 15px 0;
+    height: 100vh;
+}
+.circle-1 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background-color: $circle_background-color;
+    bottom: -42vh;
+    right: 78vw;
+    z-index: -1;
+}
+.circle-2 {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    background-color: $circle_background-color;
+    top: -36vh;
+    left: 78vw;
+    z-index: -1;
+}
+#content{
+    width: 100%;
+}
+.main__content{
+    flex: 1 1 auto;
+}
+.main__time {
+    margin-bottom: 5px;
+    svg{
+        width: 12px;
+        height: 12px;
+        margin-right: 5px;
+    }
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 25px;
+    color: $h2_color;
+    font-weight: 500;
+}
+h3{
+    text-align: center;
+    font-size: 15px;
+    color: $h3_color;
+}
+h5{
+    text-align: center;
+}
+.main__button{
+    --bs-btn-padding: .25rem;
+    background-color: $button_background-color;
+    color: $button_color;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    &:hover{
+        background-color: $button_background-color-hov;
+    }
+    width: 45%;
+    margin: 0 auto;
+}
+.input{
+    background-color: none;
+    width: 65%;
+    margin: 5px auto 5px;
+    color: $h2_color;
+    border-color: $border_color;
+    &:checked{
+        border-color: none;
+    }
+}
+.btn-primary{
+    background-color: none !important;
+}
+.modal-button{
+    &:hover{
+        background-color: #198754;
+        color: #fff;
+        border-color: #198754;
+    }
+    &:focus{
+        box-shadow: 0 0 0 0.25rem rgba(25,135,84,0.5);
+        background-color: #198754;
+        color: #fff;
+        border-color: #198754;
+    }
+}

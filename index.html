@@ -7,12 +7,230 @@
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/Styles.css" type="text/css">
+    <link rel="stylesheet" href="/css/css/Styles.css" type="text/css">
 </head>
 
 <body>
-    <div class="wrapper">
-        
+    <div class="wrapper container-xxl">
+        <div class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">Yiannakis Frangou can help you sell or rent your property
+                </h2>
+                <h3 class="d-flex justify-content-center">Tell us more about it with this quick form</h3>
+            </div>
+            <div class="main__time d-flex justify-content-center align-items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#023665" class="bi bi-clock-fill"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z" />
+                </svg>
+                <h5>Takes 5 minutes</h5>
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Let's start</button>
+        </div>
+        <div class="screen-1 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-1__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">1. What is your name?
+                </h2>
+                <div class="input input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="Name" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <button type="button" class="screen-1__button main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <div class="screen-2 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-2__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">2. The property you have is for:
+                </h2>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-2-1"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-2-1">For sale</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-2-2"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-2-2">For rent</label>
+
+                <button type="button" id="button-screen-2" class="input btn modal-button" data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop">
+                    A project for investor
+                </button>
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="staticBackdropLabel">Dear, Name.</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                Thank you for submitting your investment project with us. Call Yiannakis Frangou and
+                                discuss your investment project with him. Yiannakis Frangou will consult with you and
+                                answer all your questions.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" id="button-skip-screen-2"
+                                    data-bs-dismiss="modal">Skip</button>
+                                <a type="button" class="btn btn-primary" href="tel:1-562-867-5309">Call</a>
+                                <script>
+                                    document.getElementById('button-skip-screen-2').onclick = function () {
+                                        document.getElementById('button-screen-2').hidden = true;
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <div class="screen-3 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-3__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">3. What category is your property?</h2>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-3-1"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-3-1">Residential</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-3-2"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-3-2">Commercial</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-3-3"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-3-3">Plots and Land</label>
+
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <!-- При выборе -«Residential» -->
+        <div id="screen-4-residential"
+            class="screen-4 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-4__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">4. And to be a little more specific:</h2>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-1"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-1">Studio</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-2"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2">Apartment</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-3"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-3">Penthouse</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-4"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-4">Semidetached
+                    house</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-5"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-5">Private house</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-6"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-6">Villa</label>
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <!-- При выборе -«Commercial» -->
+        <div id="screen-4-commercial"
+            class="screen-4 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-4__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">4. And to be a little more specific:</h2>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-1"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-1">Office</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-2"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2">Space</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-3"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-3">Warehouse</label>
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <!-- При выборе -«Plots and Land» -->
+        <div id="screen-4-plots_and_land"
+            class="screen-4 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-4__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">4. And to be a little more specific:</h2>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-1"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-1">Agricultural</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-2"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2">Residential</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-3"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-3">Commercial</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-4"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-4">Mixed use</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-5"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-5">Touristic</label>
+
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-6"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-6">Industrial</label>
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <div id="screen-5" class="screen-5 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-5__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">5. Where is this property located?</h2>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-5-1"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-5-1">Nicosia</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-5-2"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-5-2">Limassol</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-5-3"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-5-3">Larnaka</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-5-4"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-5-4">Paphos</label>
+                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-5-5"
+                    autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-5-5">Famagusta</label>
+            </div>
+            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
+        <div class="screen-5_1 main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="screen-5_1__content main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">5.1  Do you know its postal code or area?
+                </h2>
+                <div class="input input-group input-group-lg">
+                    <input type="text" class="form-control" placeholder="Postal Code" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <button type="button" class="screen-1__button main__button btn btn-primary btn-lg ">Continue</button>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
