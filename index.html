@@ -30,23 +30,28 @@
             </div>
             <button type="button" class="main__button btn btn-primary btn-lg ">Let's start</button>
         </div>
-        <div class="screen-1 main d-flex justify-content-center flex-column align-items-center">
+        <div class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-1__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">1. What is your name?
                 </h2>
-                <div class="input input-group input-group-lg">
+                <div class="input input-group">
                     <input type="text" class="form-control" placeholder="Name" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
             </div>
-            <button type="button" class="screen-1__button main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>Let’s begin with</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
-        <div class="screen-2 main d-flex justify-content-center flex-column align-items-center">
+        <div class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-2__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">2. The property you have is for:
                 </h2>
                 <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-2-1"
@@ -89,12 +94,17 @@
                     </div>
                 </div>
             </div>
-            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>Making your posting better</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
-        <div class="screen-3 main d-flex justify-content-center flex-column align-items-center">
+        <div class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-3__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">3. What category is your property?</h2>
                 <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-3-1"
                     autocomplete="off">
@@ -109,96 +119,126 @@
                 <label class="input btn btn-outline-success" for="success-outlined__screen-3-3">Plots and Land</label>
 
             </div>
-            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>Making your posting better</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
         <!-- При выборе -«Residential» -->
-        <div id="screen-4-residential"
-            class="screen-4 main d-flex justify-content-center flex-column align-items-center">
+        <div id="screen-4-residential" class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-4__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">4. And to be a little more specific:</h2>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-1"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-1">Studio</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-1-residential" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-1-residential">Studio</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-2"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2">Apartment</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-2-residential" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-2-residential">Apartment</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-3"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-3">Penthouse</label>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-4"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-4">Semidetached
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-3-residential" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-3-residential">Penthouse</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-4-residential" autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-4-residential">Semidetached
                     house</label>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-5"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-5">Private house</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-5-residential" autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-5-residential">Private
+                    house</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-6"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-6">Villa</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-6-residential" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-6-residential">Villa</label>
             </div>
-            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>You are on the right track</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
         <!-- При выборе -«Commercial» -->
-        <div id="screen-4-commercial"
-            class="screen-4 main d-flex justify-content-center flex-column align-items-center">
+        <div id="screen-4-commercial" class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-4__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">4. And to be a little more specific:</h2>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-1"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-1">Office</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-1-commercial" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-1-commercial">Office</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-2"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2">Space</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-2-commercial" autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2-commercial">Space</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-3"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-3">Warehouse</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-3-commercial" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-3-commercial">Warehouse</label>
             </div>
-            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>You are on the right track</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
         <!-- При выборе -«Plots and Land» -->
-        <div id="screen-4-plots_and_land"
-            class="screen-4 main d-flex justify-content-center flex-column align-items-center">
+        <div id="screen-4-plots_and_land" class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-4__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">4. And to be a little more specific:</h2>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-1"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-1">Agricultural</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-1-plots_and_land" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-1-plots_and_land">Agricultural</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-2"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-2">Residential</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-2-plots_and_land" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-2-plots_and_land">Residential</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-3"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-3">Commercial</label>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-4"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-4">Mixed use</label>
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-5"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-5">Touristic</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-3-plots_and_land" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-3-plots_and_land">Commercial</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-4-plots_and_land" autocomplete="off">
+                <label class="input btn btn-outline-success" for="success-outlined__screen-4-4-plots_and_land">Mixed
+                    use</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-5-plots_and_land" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-5-plots_and_land">Touristic</label>
 
-                <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-4-6"
-                    autocomplete="off">
-                <label class="input btn btn-outline-success" for="success-outlined__screen-4-6">Industrial</label>
+                <input type="radio" class="btn-check" name="options-outlined"
+                    id="success-outlined__screen-4-6-plots_and_land" autocomplete="off">
+                <label class="input btn btn-outline-success"
+                    for="success-outlined__screen-4-6-plots_and_land">Industrial</label>
             </div>
-            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>You are on the right track</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
-        <div id="screen-5" class="screen-5 main d-flex justify-content-center flex-column align-items-center">
+        <div id="screen-5" class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-5__content main__content d-flex justify-content-center flex-column">
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
                 <h2 class="d-flex justify-content-center">5. Where is this property located?</h2>
                 <input type="radio" class="btn-check" name="options-outlined" id="success-outlined__screen-5-1"
                     autocomplete="off">
@@ -216,21 +256,1136 @@
                     autocomplete="off">
                 <label class="input btn btn-outline-success" for="success-outlined__screen-5-5">Famagusta</label>
             </div>
-            <button type="button" class="main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>You are doing well</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
-        <div class="screen-5_1 main d-flex justify-content-center flex-column align-items-center">
+        <div id="screen-5_1" class="main d-flex justify-content-center flex-column align-items-center">
             <div class="circle-1"></div>
             <div class="circle-2"></div>
-            <div id="content" class="screen-5_1__content main__content d-flex justify-content-center flex-column">
-                <h2 class="d-flex justify-content-center">5.1  Do you know its postal code or area?
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">5.1 Do you know its postal code or area?
                 </h2>
-                <div class="input input-group input-group-lg">
+                <input class="input form-control input-disabled-border-color" list="datalistOptions"
+                    id="exampleDataList" placeholder="Input Area">
+                <datalist id="datalistOptions">
+                    <option value="San Francisco">
+                    <option value="New York">
+                    <option value="Seattle">
+                    <option value="Los Angeles">
+                    <option value="Chicago">
+                </datalist>
+                <div class="input input-group">
                     <input type="text" class="form-control" placeholder="Postal Code" aria-label="Username"
                         aria-describedby="basic-addon1">
                 </div>
             </div>
-            <button type="button" class="screen-1__button main__button btn btn-primary btn-lg ">Continue</button>
+            <h3>You are doing well</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
         </div>
+        <!-- Если ранее был выбран параметр «SEMIDETACHED HOUSE» или «PRIVATE HOUSE» или «VILLA» и «APARTMENT» или «PENTHOUSE» или «STUDIO» -->
+        <div id="screen-6_1-house" class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">6. Specify the characteristics of your property</h2>
+                <h3 class="d-flex justify-content-center mt-1 fs-4 fw-bolder">6.1 How many bedrooms does it have?</h3>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-1-1-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-1-1-house">2</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-1-2-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-1-2-house">3</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-1-3-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-1-3-house">4</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-1-4-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-1-4-house">5</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-1-5-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-1-5-house">6</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-1-6-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-1-6-house">6+</label>
+                </div>
+                <h3 class="d-flex justify-content-center mt-1 fs-4 fw-bolder">6.2 How many bathrooms does it have?</h3>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-2-1-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-2-1-house">2</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-2-2-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-2-2-house">3</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-2-3-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-2-3-house">4</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-2-4-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-2-4-house">5</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-2-5-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-2-5-house">6</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-6-2-6-house" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-6-2-6-house">6+</label>
+                </div>
+                <h3 class="d-flex justify-content-center fs-4 fw-bolder">6.3 What is the NET internal area, size in
+                    square meters?
+                </h3>
+                <div class="input input-group">
+                    <input type="text" class="form-control" placeholder="NET internal area" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <h3>Let's continue</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <!-- Если ранее был выбран параметр «SPACE» или «OFFICE» или «WAREHOUSE» -->
+        <div id="screen-6_2-space" class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">6. Specify the characteristics of your property</h2>
+                <h3 class="d-flex justify-content-center fs-3">What is the NET internal area, size in square meters?
+                </h3>
+                <div class="input input-group">
+                    <input type="text" class="form-control" placeholder="NET internal area" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <h3>Let's continue</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <!-- Если ранее был выбран параметр «AGRICULTURAL» или «RESIDENTIAL» или «COMMERCIAL» или MIXED USE или TOURSTIC или INDUSTRIAL -->
+        <div id="screen-6_3-commercial" class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">6. Specify the characteristics of your property</h2>
+                <h3 class="d-flex justify-content-center fs-3">What is the plot size in square meters?</h3>
+                <div class="input input-group">
+                    <input type="text" class="form-control" placeholder="Plot size" aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+            <h3>Let's continue</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1-residential_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-residential_for_sale">+ VAT</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-residential_for_sale">No VAT</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1_1-residential_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-1-residential_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-1-residential_for_sale_VAT">Brand
+                        New</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-2-residential_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-2-residential_for_sale_VAT">Under
+                        construction</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1_1-residential_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-1-residential_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-1-residential_for_sale_NO_VAT">less than 10
+                        y.o.</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-2-residential_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-2-residential_for_sale_NO_VAT">more than 10
+                        y.o.</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1_2-residential_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-1-residential_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-1-residential_for_sale_NO_VAT">Fully
+                        renovated</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-2-residential_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-2-residential_for_sale_NO_VAT">Partly
+                        renovated</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_2-residential_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-1-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-1-residential_for_sale">Title deed
+                        clear</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-2-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-2-residential_for_sale">No title deed
+                        yet</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-3-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-3-residential_for_sale">Under a
+                        loan</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_3-residential_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.3 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-1-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-1-residential_for_sale">One current
+                        owner</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-2-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-2-residential_for_sale">Several
+                        current owners</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_4-residential_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.4 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-1-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-1-residential_for_sale">Private
+                        seller</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-2-residential_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-2-residential_for_sale">Company
+                        seller</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1-residential_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-residential_for_rent">Pets
+                        Allowed</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-residential_for_rent">No
+                        Pets</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-3-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-3-residential_for_rent">Small Pets
+                        Only</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_2-residential_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-1-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-1-residential_for_rent">Furnished</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-2-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-2-residential_for_rent">Semi-furnished</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-3-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-3-residential_for_rent">Unfurnished</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_3-residential_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.3 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-1-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-1-residential_for_rent">Brand
+                        New</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-2-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-2-residential_for_rent">Less than 10
+                        y.o.</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-3-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-3-residential_for_rent">More than 10
+                        y.o.</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_4-residential_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.4 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-1-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-1-residential_for_rent">For under 1
+                        year</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-2-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-2-residential_for_rent">Available for
+                        1 year</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-3-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-3-residential_for_rent">Available for
+                        1+ years</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_5-residential_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.5 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-1-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-1-residential_for_rent">City
+                        center</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-2-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-2-residential_for_rent">Close to
+                        sea</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-3-residential_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-3-residential_for_rent">Nice
+                        neighborhood</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_6-residential_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.6 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="checkbox" class="btn-check" id="btn-check-outlined__screen-7-6-1-residential_for_rent"
+                        autocomplete="off">
+                    <label class="input btn btn-outline-primary m-1 input-border-color"
+                        for="btn-check-outlined__screen-7-6-1-residential_for_rent">Underfloor heating</label><br>
+
+                    <input type="checkbox" class="btn-check" id="btn-check-outlined__screen-7-6-2-residential_for_rent"
+                        autocomplete="off">
+                    <label class="input btn btn-outline-primary m-1 input-border-color"
+                        for="btn-check-outlined__screen-7-6-2-residential_for_rent">Central heating</label><br>
+
+                    <input type="checkbox" class="btn-check" id="btn-check-outlined__screen-7-6-3-residential_for_rent"
+                        autocomplete="off">
+                    <label class="input btn btn-outline-primary m-1 input-border-color"
+                        for="btn-check-outlined__screen-7-6-3-residential_for_rent">A/C heating</label><br>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1-commercial_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-commercial_for_sale">+ VAT</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-commercial_for_sale">No VAT</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1_1-commercial_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-1-commercial_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-1-commercial_for_sale_VAT">Brand
+                        New</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-2-commercial_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-2-commercial_for_sale_VAT">Under
+                        construction</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1_1-commercial_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-1-commercial_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-1-commercial_for_sale_NO_VAT">less than 10
+                        y.o.</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-2-commercial_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-2-commercial_for_sale_NO_VAT">more than 10
+                        y.o.</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_2-commercial_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-1-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-1-commercial_for_sale">Title deed
+                        clear</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-2-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-2-commercial_for_sale">No title deed
+                        yet</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-3-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-3-commercial_for_sale">Under a
+                        loan</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_3-commercial_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.3 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-1-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-1-commercial_for_sale">One current
+                        owner</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-2-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-2-commercial_for_sale">Several
+                        current owners</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_4-commercial_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.4 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-1-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-1-commercial_for_sale">Private
+                        seller</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-2-commercial_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-2-commercial_for_sale">Company
+                        seller</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1-commercial_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-commercial_for_rent">Brand
+                        New</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-commercial_for_rent">Less than 10
+                        y.o.</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-3-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-3-commercial_for_rent">More than 10
+                        y.o.</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_2-commercial_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-1-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-1-commercial_for_rent">Furnished</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-2-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-2-commercial_for_rent">Semi-furnished</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-3-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-3-commercial_for_rent">Unfurnished</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_3-commercial_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.3 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="checkbox" class="btn-check" id="btn-check-outlined__screen-7-3-1-commercial_for_rent"
+                        autocomplete="off">
+                    <label class="input btn btn-outline-primary m-1 input-border-color"
+                        for="btn-check-outlined__screen-7-3-1-commercial_for_rent">Fully renovated</label><br>
+
+                    <input type="checkbox" class="btn-check" id="btn-check-outlined__screen-7-3-2-commercial_for_rent"
+                        autocomplete="off">
+                    <label class="input btn btn-outline-primary m-1 input-border-color"
+                        for="btn-check-outlined__screen-7-3-2-commercial_for_rent">Partly renovated</label><br>
+
+                    <input type="checkbox" class="btn-check" id="btn-check-outlined__screen-7-3-3-commercial_for_rent"
+                        autocomplete="off">
+                    <label class="input btn btn-outline-primary m-1 input-border-color"
+                        for="btn-check-outlined__screen-7-3-3-commercial_for_rent">Needs renovation</label><br>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_4-commercial_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.4 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-1-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-1-commercial_for_rent">City
+                        center</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-2-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-2-commercial_for_rent">Perfect
+                        location</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-3-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-3-commercial_for_rent">High
+                        street</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_5-commercial_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.5 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-1-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-1-commercial_for_rent">For under 1
+                        year</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-2-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-2-commercial_for_rent">Available for
+                        1 year</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-3-commercial_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-3-commercial_for_rent">Available for
+                        1+ years</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1-plots_and_land_for_sale"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-plots_and_land_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-plots_and_land_for_sale">+ VAT</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-plots_and_land_for_sale" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-plots_and_land_for_sale">No VAT</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_2-plots_and_land_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-1-plots_and_land_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-1-plots_and_land_for_sale_VAT">Title deed
+                        clear</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_2-plots_and_land_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.2 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-1-plots_and_land_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-1-plots_and_land_for_sale_NO_VAT">No title deed
+                        yet</label>
+
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-2-2-plots_and_land_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-2-2-plots_and_land_for_sale_NO_VAT">Under a
+                        loan</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_3-plots_and_land_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.3 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-1-plots_and_land_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-1-plots_and_land_for_sale_NO_VAT">Several
+                        current owners</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_3-plots_and_land_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.3 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-3-1-plots_and_land_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-3-1-plots_and_land_for_sale_VAT">One
+                        current owner</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_4-plots_and_land_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.4 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-1-plots_and_land_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-1-plots_and_land_for_sale_VAT">Private
+                        seller</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_4-plots_and_land_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.4 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-4-1-plots_and_land_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-4-1-plots_and_land_for_sale_NO_VAT">Company
+                        seller</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_5-plots_and_land_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.5 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-1-plots_and_land_for_sale_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-1-plots_and_land_for_sale_VAT">Land</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_5-plots_and_land_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.5 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-5-1-plots_and_land_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-5-1-plots_and_land_for_sale_NO_VAT">Plot</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_6-plots_and_land_for_sale_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.6 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-6-1-plots_and_land_for_sale_VAT" autocomplete="off">Under
+                    separation</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_6-plots_and_land_for_sale_NO_VAT"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.6 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-6-1-plots_and_land_for_sale_NO_VAT" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-6-1-plots_and_land_for_sale_NO_VAT">Separation
+                        finalized</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-7_1-plots_and_land_for_rent"
+            class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">7.1 Let’s add some benefits of your property:</h2>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-1-plots_and_land_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-1-plots_and_land_for_rent">For under 5
+                        years</label>
+                </div>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-2-plots_and_land_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-2-plots_and_land_for_rent">Available for
+                        10 years</label>
+                </div>
+                <div class="d-flex justify-content-center m-0 mb-3">
+                    <input type="radio" class="btn-check" name="options-outlined"
+                        id="success-outlined__screen-7-1-3-plots_and_land_for_rent" autocomplete="off">
+                    <label class="input btn btn-outline-success m-1"
+                        for="success-outlined__screen-7-1-3-plots_and_land_for_rent">Available for
+                        10+ years</label>
+                </div>
+            </div>
+            <h3>Very well!</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-1">Continue</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+        <div id="screen-8" class="main d-flex justify-content-center flex-column align-items-center">
+            <div class="circle-1"></div>
+            <div class="circle-2"></div>
+            <div id="content" class="main__content d-flex justify-content-center flex-column">
+                <h2 class="d-flex justify-content-center">8. Upload a photo of your property (up to 10 photos)</h2>
+                <div class="input-group mb-3">
+                    <input type="file" class="form-control" id="inputGroupFile02">
+                </div>
+            </div>
+            <h3>We're almost done</h3>
+            <div class="d-flex">
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Back</button>
+                <button type="button" class="main__button btn btn-primary btn-lg m-2">Next</button>
+            </div>
+        </div>
+
+
+
+
+
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"

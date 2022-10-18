@@ -108,6 +108,11 @@ body {
   padding: 15px 0;
   height: 100vh;
 }
+.main h3 {
+  font-size: 15px;
+  color: #155b9a;
+  margin: 0 0 15px 0;
+}
 
 .circle-1 {
   position: absolute;
@@ -186,10 +191,22 @@ h5 {
   width: 65%;
   margin: 5px auto 5px;
   color: #033665;
-  border-color: #033665;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 .input:checked {
   border-color: none;
+}
+
+.input-border-color {
+  border-color: #033665;
 }
 
 .btn-primary {
