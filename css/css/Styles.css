@@ -101,6 +101,7 @@ body {
 
 .wrapper {
   overflow: hidden;
+  position: relative;
 }
 
 .main {
@@ -115,7 +116,7 @@ body {
 }
 
 .circle-1 {
-  position: absolute;
+  position: fixed;
   width: 500px;
   height: 500px;
   border-radius: 250px;
@@ -126,7 +127,7 @@ body {
 }
 
 .circle-2 {
-  position: absolute;
+  position: fixed;
   width: 500px;
   height: 500px;
   border-radius: 250px;
